@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lululemon_woman</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
+    <!-- 스와이퍼 코드 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- 스와이퍼 cdn -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- 노토산스 폰트 적용 -->
+   
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- 제이쿼리 -->
+
+    <script>
+        $(document).ready(function(){
+            var swiper = new Swiper(".swiper1", {
+
+            breakpoints: {
+            350: {
+                slidesPerView : 1.4,
+                spaceBetween: 18
+            },
+
+            550: {
+                slidesPerView : 2,
+                spaceBetween: 18,
+            },
+
+            750: {
+                slidesPerView: 2.5,
+                spaceBetween: 18
+            },
+
+            1200: {
+                slidesPerView: 3.5,
+                spaceBetween: 30,
+            },
+            1400: {
+                slidesPerView: 4,
+                spaceBetween: 30,
+            }
+          },
+          
+
+          autoplay : {
+            delay: 0,
+            disableOnInteraction: false,
+          },
+            speed: 7000,
+            loop: true,
+
+            scrollbar: {
+            el: ".swiper-scrollbar",
+        },
+
+          
+        });
+        });
+      </script>
+
+<script>
+    $(document).ready(function(){
+        var swiper = new Swiper(".swiper3", {
+
+            slidesPerView : 4,
+            spaceBetween: 30,
+
+            breakpoints : {
+            350: {
+                slidesPerView : 1.2,
+                spaceBetween: 10,
+
+            },
+
+            550: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+
+            },
+
+            900: {
+                slidesPerView : 2.5,
+                spaceBetween: 25,
+            },
+
+            1200: {
+                slidesPerView : 3.5,
+                spaceBetween: 30,
+            },
+
+            1400: {
+                slidesPerView : 4,
+                spaceBetween: 30,
+            }
+            },
+
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+    });
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+        var swiper = new Swiper(".swiper4", {
+
+        breakpoints : {
+            350 : {
+            slidesPerView: 2.5,
+            spaceBetween: 10,
+            },
+
+            550 : {
+            slidesPerView: 3.2,
+            spaceBetween: 10,
+            },
+
+            900 : {
+            slidesPerView: 3.5,
+            spaceBetween: 20,
+            },
+
+            1200 : {
+            slidesPerView: 4.5,
+            spaceBetween: 20,
+            },
+        }
+      
+    });
+    });
+  </script>
+
+
+</head>
+<body>
+    <div class="wrap">
+        <header>
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+                <ul class="gnb">
+                  <a href="#"><li>세일</li></a>
+                  <a href="#"><li class="red">여성</li>
+                </a>
+                  <a href="#"><li>남성</li></a>
+                  <a href="#"><li>악세사리</li></a>
+                  <a href="#"><li>기프트 가이드</li></a>
+                  <a href="#"><li>앰버서더</li></a>
+                </ul>
+               <ul class="right_header">
+                <li>
+                    <a href="#"><img src="img/Icon akar-search.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/mypage.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/Icon akar-basket.png" alt=""></a>
+                </li>
+                <li><a href="#"><img src="img/ham.png" alt=""></a></li>
+               </ul>
+        </header>
+        <!-- header end -->
+         <section class="section_1">
+            <div class="title">
+                <h2>WOMAN</h2>
+               <ul class="category">
+                <li><a href="#">의류</a></li>
+                <li><a href="#">언더웨어</a></li>
+                <li><a href="#">악세사리</a></li>
+                <li><a href="#">요가 용품</a></li>
+                <li><a href="#">베스트</a></li>
+                <li><a href="#">세일</a></li>
+               </ul>
+            </div>
+
+            <div class="pc_img">
+                <img src="img/sec1img.png" alt="">
+            </div>
+
+            <div class="mobile_img">
+                <img src="img/sec_1_mobile.png" alt="">
+            </div>
+         </section>
+
+         <!-- section_1 end -->
+
+         <section class="section_2">
+            <div class="title">
+                <h3>Daily wear</h3>
+            </div>
+
+            <div class="swiper swiper1">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <a href="#">
+                   <img src="img/sec2img1.png" alt="">
+                   <div class="text_box">
+                    <h3>루나 뉴 이어 부클레 칼라 플리스 풀집</h3>
+                    <p>278,000원</p>
+                   </div>
+                </a>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <img src="img/sec2img2.png" alt="">
+                    <div class="text_box">
+                     <h3>루나 뉴 이어 프렌치 테리 플레어 헴 스커트</h3>
+                     <p>138,000원</p>
+                    </div>
+                </a>
+                   </div>
+
+                   <div class="swiper-slide">
+                    <a href="#">
+                    <img src="img/sec2img3.png" alt="">
+                    <div class="text_box">
+                     <h3>루나 뉴 이어 Nulu 키홀 롱슬리브 셔츠</h3>
+                     <p>109,000원</p>
+                    </div>
+                </a>
+                   </div>
+
+                   <div class="swiper-slide">
+                    <a href="#">
+                    <img src="img/sec2img4.png" alt="">
+                    <div class="text_box">
+                     <h3>루나 뉴 이어 플리스 하이라이즈 와이드 레그 팬츠 아시아 핏</h3>
+                     <p>184,000원</p>
+                    </div>
+                </a>
+                   </div>
+
+                   <div class="swiper-slide">
+                    <a href="#">
+                    <img src="img/sec2img5.png" alt="">
+                    <div class="text_box">
+                     <h3>텍스처드 플리스 신처블 풀집</h3>
+                     <p>230,000원</p>
+                    </div>
+                </a>
+                   </div>
+
+                   <div class="swiper-slide">
+                    <a href="#">
+                    <img src="img/sec2img6.png" alt="">
+                    <div class="text_box">
+                     <h3>롱슬리브 헨리 베이스 레이어</h3>
+                     <p>125,000원</p>
+                    </div>
+                </a>
+                   </div>
+
+                   <div class="swiper-slide">
+                    <a href="#">
+                    <img src="img/sec2img7.png" alt="">
+                    <div class="text_box">
+                     <h3>루나 뉴 이어 스쿠바 미드라이즈 오버사이즈드 조거 아시아 핏</h3>
+                     <p>169,000원</p>
+                    </div>
+                </a>
+                   </div>
+
+                   <div class="swiper-slide">
+                    <a href="#">
+                    <img src="img/sec2img8.png" alt="">
+                    <div class="text_box">
+                     <h3>루나 뉴 이어 스위프틀리 테크 롱슬리브 셔츠 2.0 웨이스트 렝스</h3>
+                     <p>109,000원</p>
+                    </div>
+                </a>
+                   </div>
+
+                 
+                </div>
+              
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+
+                <div class="swiper-scrollbar"></div>
+
+              </div>
+         </section>
+
+         <!-- section_2 end -->
+
+         <section class="section_3">
+            <div class="title">
+                <h3>COLLECTION</h3>
+            </div>
+
+            <div class="swiper swiper3">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="sec_3_con">
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="img/sec3img3.png" alt="">
+                            </div>
+                       
+                        <div class="sec_3_text">
+                            <h3>WINTER</h3>
+                            <p>제품 보러가기</p>
+                        </div>
+                    </a>
+    
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="sec_3_con">
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="img/sec3img2.png" alt="">
+                            </div>
+                        <div class="sec_3_text">
+                            <h3>WUNDER PUFF</h3>
+                            <p>제품 보러가기</p>
+                        </div>
+                    </a>
+    
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="sec_3_con">
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="img/sec3img1.png" alt="">
+                            </div>
+                        <div class="sec_3_text">
+                            <h3>SCUBA</h3>
+                            <p>제품 보러가기</p>
+                        </div>
+                    </a>
+    
+                    </div>
+                </div>
+
+                    <div class="swiper-slide">
+                        <div class="sec_3_con">
+                            <a href="#">
+                                <div class="imgbox">
+                                    <img src="img/sec3img4.png" alt="">
+                                </div>
+                            <div class="sec_3_text">
+                                <h3>Align™</h3>
+                                <p>제품 보러가기</p>
+                            </div>
+                        </a>
+        
+                        </div>
+                    </div>
+                
+                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+             
+              </div>
+
+           
+         </section>
+         <!-- section_3 end -->
+          <section class="section_4">
+            <div class="title">
+                <h3>STYLING</h3>
+            </div>
+            
+            <div class="swiper swiper4">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="img/sec4img1.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/sec4img2.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/sec4img3.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/sec4img4.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/sec4img5.png" alt="">
+                  </div>
+                  
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="plus_btn">
+                    <a href="#">더보기</a>
+                </div>
+          </section>
+          <!-- section_4 end -->
+
+          <section class="section_5">
+            <div class="title">
+                <h3>LULULEMON LEGGINGS</h3>
+            </div>
+            <div class="sec_wrap">
+                <div class="title_img">
+                    <img src="img/leggingsguide.png" alt="">
+                    <h3>GUIDE</h3>
+                </div>
+                
+                <div class="sec_5_con">
+                    <a href="#">
+                        <img src="img/sec5img1.png" alt="">
+                        <div class="p">
+                            <p>Basic</p>
+                            <div class="btn">
+                                <p>제품 보러가기</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="sec_5_con">
+                    <a href="#">
+                        <img src="img/sec5img2.png" alt="">
+                        <div class="p">
+                            <p>Align™</p>
+                            <div class="btn">
+                                <p>제품 보러가기</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="sec_5_con">
+                    <a href="#">
+                        <img src="img/sec5img3.png" alt="">
+                        <div class="p">
+                            <p>Wunder train</p>
+                            <div class="btn">
+                                <p>제품 보러가기</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="sec_5_con">
+                    <a href="#">
+                        <img src="img/sec5img4.png" alt="">
+                        <div class="p">
+                            <p>Fast and Free</p>
+                            <div class="btn">
+                                <p>제품 보러가기</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="sec_5_con">
+                    <a href="#">
+                        <img src="img/sec5img5.png" alt="">
+                        <div class="p">
+                            <p>Groove</p>
+                            <div class="btn">
+                                <p>제품 보러가기</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                
+            </div>
+          </section>
+          <!-- section_5 end -->
+
+          <footer>
+            <div class="in_footer">
+                <div class="left_footer">
+                    <ul class="top">
+                        <li>룰루레몬애틀라티카코리아 유한회사</li>
+                        <li>대표 : 가레스다니엘제임스포츠</li>
+                    </ul>
+
+                    <ul class="adver">
+                        <li>주소: 서울시 강남구 선릉로 835,3층(신사동)</li>
+                        <li>사업자 등록번호: 220-88-88573 (사업자정보확인)</li>
+                        <li>통신판매업신고번호 : 2018-서울강남-01776</li>
+                        <li>호스팅 서비스 사업자 : Salesforce.com inc. </li>
+                    </ul>
+
+                    <ul class="bottom">
+                        <li>
+                            <a href="#">개인정보처리방침
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">이용약관
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">사이트맵
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="right_footer">
+                    <h3>CS CENTER</h3>
+                    <ul class="customer">
+                        <li><a href="#">라이브챗 시작하기</a></li>
+                        <li>TEL : 070.4769.7965</li>
+                        <li>e-mail : gec.kr@lululemon.com</li>
+                        <li>운영시간 : 09:00~18:00 (점심시간 12:00~13:00)</li>
+                    </ul>
+                </div>
+
+                <div class="sns">
+                    <a href="#">
+                        <img src="img/Icon simple-kakaotalk.png" alt="">
+                    </a>
+    
+                    <a href="#">
+                        <img src="img/Icon akar-facebook-fill.png" alt="">
+                    </a>
+    
+                    <a href="#">
+                        <img src="img/Icon akar-instagram-fill.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                © lululemon athletica Korea ltd. All rights reserved
+            </div>
+         </footer>
+        
+    </div>
+    
+</body>
+</html>

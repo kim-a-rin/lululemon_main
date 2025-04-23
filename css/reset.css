@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+
+

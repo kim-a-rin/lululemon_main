@@ -1,0 +1,41 @@
+.wrap{
+    width: 100%;
+}
+
+header,section,footer {
+    width: 100%;
+}
+section {
+    padding: 80px 40px;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title>h3 {
+    font-size: 30px;
+    color: #2b2b2b;
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        padding: 80px 20px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .title>h3 {
+        width: 150px;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    
+}
